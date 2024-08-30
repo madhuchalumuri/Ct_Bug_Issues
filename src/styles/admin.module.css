@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 25px;
+
+}
+.container{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(182, 180, 180);  
+}
+.screen{
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: rgb(182, 180, 180);  
+}
+.allIssues{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.issues {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.con2{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+.con2 h1{
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.imgContainer{
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 30px;
+    margin:20px 0px ;
+}
+.heading{
+    font-weight: 600;
+}
+.readbtn{
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+.btns{
+    float: right;
+    padding-right: 20px;
+    display: flex;
+    gap: 20px;
+
+}
+.btns button{
+    width: 120px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 20px;
+
+}
+
+.con1{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    
+}
+.form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 500px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    z-index: 1;
+}
+
+.navbar{
+    background-color: black;
+    width: 100vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+    color: white;
+    position: sticky;
+    top: 0;
+}
+
+.navbar .items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    cursor: pointer;
+    letter-spacing: 2px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 24px;
+
+}
+
+.link1{
+    text-decoration: none;
+
+}
+.link {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+  }
+  
+  .link.selected {
+    text-decoration: underline;
+    font-weight: bold;
+  }
+  
+  
+  .pendingContainer{
+    background-color: red;
+  }
+
+  .pending{
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    /* transform: translate(-50%, -50%); */
+    width: 80vw;
+    height: auto;
+    background-color: rgb(200, 204, 199);
+    border: 1px solid black;
+    padding: 20px;
+    z-index: 1;
+    
+  }
+  .pending h1{
+    font-size: 24px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+  }
+
+  .approveBtn{
+    padding: 12px 24px;
+    line-height: 10px;
+    background-color: rgb(3, 3, 253);
+    color: white;
+    border: none;
+    font-size: 16px;
+    border-radius: 20px;
+  }
+
+  .addIssue{
+    cursor:pointer;
+    padding: 12px 24px;
+    background-color: rgb(182, 180, 180);
+    border: none;
+    border-radius: 20px;
+
+  }
+
+ 
+  .dailog{
+    width: 100%;
+    height: auto;
+    background-color: white;
+    
+  }
+
+  .dailogText{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .dailogBtn{
+    width: 100px;
+    height: 40px;
+    background-color: rgb(73, 20, 220);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    color: white;
+    margin-right: 20px;
+  }

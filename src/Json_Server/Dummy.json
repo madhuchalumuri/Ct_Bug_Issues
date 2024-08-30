@@ -1,0 +1,131 @@
+{
+  "issues": [
+    {
+      "id": "9822",
+      "createdBy": "madhu",
+      "userIssuesData": [
+        {
+          "title": "Login button not working..",
+          "description": "The login button fails to submit form..",
+          "image": "https://firebasestorage.googleapis.com/v0/b/ct-bug-log.appspot.com/o/images%2FScreenshot%202024-08-21%20132740.png?alt=media&token=6a189cf1-fc1b-4911-81c3-6a2750f7074a",
+          "solution": "Clear the cache and restart the browser.",
+          "category": "UI",
+          "status": "open"
+        },
+        {
+          "title": "Data fetching error",
+          "description": "API returns a 404 error.",
+          "image": "https://firebasestorage.googleapis.com/v0/b/ct-bug-log.appspot.com/o/images%2FScreenshot%202024-08-21%20132740.png?alt=media&token=7b4bf583-5e3f-4247-8cdc-46b8058dff8c",
+          "solution": "Update the API endpoint.",
+          "category": "Java",
+          "status": "open"
+        },
+        {
+          "title": "mad",
+          "description": "efsdgrbgne",
+          "image": "https://firebasestorage.googleapis.com/v0/b/ct-bug-log.appspot.com/o/images%2FScreenshot%202024-08-21%20132740.png?alt=media&token=ea9fbc22-ef60-4f35-ad69-48d0a58394e7",
+          "solution": "fgrdbgnf",
+          "category": "UI",
+          "status": "pending"
+        }
+      ]
+    },
+    {
+      "id": "02dd",
+      "createdBy": "sagar",
+      "userIssuesData": [
+        {
+          "title": "Profile picture upload error",
+          "description": "Image upload fails on mobile devices....",
+          "image": "https://firebasestorage.googleapis.com/v0/b/ct-bug-log.appspot.com/o/images%2Fbugissue%20image.png?alt=media&token=8bc4d91a-ef16-49a3-ab87-5e3badc4bcaa",
+          "solution": "Waiting for admin approval...",
+          "category": "Oracle",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": "c2d4",
+      "createdBy": "admin",
+      "userIssuesData": [
+        {
+          "title": "fesdgtf",
+          "description": "sdfbgngs",
+          "image": "https://firebasestorage.googleapis.com/v0/b/ct-bug-log.appspot.com/o/images%2Fbugissue%20image.png?alt=media&token=eaed4a60-9477-486e-96df-de311471dac5",
+          "solution": "fbg..",
+          "category": "Oracle",
+          "status": "open"
+        },
+        {
+          "title": "dsvbgf",
+          "description": "aefsbg",
+          "image": "https://firebasestorage.googleapis.com/v0/b/ct-bug-log.appspot.com/o/images%2Fbugissue%20image.png?alt=media&token=66e7efbd-6448-4b4a-8409-c3607dc15a51",
+          "solution": "awdesrfd",
+          "category": "UI",
+          "status": "open"
+        }
+      ]
+    },
+    {
+      "id": "702b",
+      "createdBy": "jack",
+      "userIssuesData": [
+        {
+          "title": "222",
+          "description": "1123d",
+          "image": "https://firebasestorage.googleapis.com/v0/b/ct-bug-log.appspot.com/o/images%2FScreenshot%202024-08-21%20123250.png?alt=media&token=a9424ae3-c80e-4d20-af5c-9748ca9f6c47",
+          "solution": "waefg",
+          "category": "Oracle",
+          "status": "pending"
+        },
+        {
+          "title": "ui problem",
+          "description": "there is no proper design",
+          "image": "https://firebasestorage.googleapis.com/v0/b/ct-bug-log.appspot.com/o/images%2FScreenshot%202024-08-21%20132740.png?alt=media&token=6ceb06e7-60d9-4948-97d6-bfcafe154c13",
+          "solution": "add styling to it",
+          "category": "UI",
+          "status": "pending"
+        },
+        {
+          "title": "1234",
+          "description": "esfrgnh",
+          "image": "https://firebasestorage.googleapis.com/v0/b/ct-bug-log.appspot.com/o/images%2FScreenshot%202024-08-21%20132740.png?alt=media&token=cdccf05f-a94f-4373-aed0-6f3baa15e80a",
+          "solution": "fdbgn",
+          "category": "Oracle",
+          "status": "pending"
+        }
+      ]
+    }
+  ],
+  "pendingIssues": [],
+  "users": [
+    {
+      "id": "c2d4",
+      "username": "admin",
+      "email": "admin@gmail.com",
+      "password": "admin",
+      "role": "admin"
+    },
+    {
+      "id": "02dd",
+      "username": "sagar",
+      "email": "sagar@gmail.com",
+      "password": "12",
+      "role": "user"
+    },
+    {
+      "id": "9822",
+      "username": "madhu",
+      "email": "madhu@gmail.com",
+      "password": "madhu",
+      "role": "user"
+    },
+    {
+      "id": "702b",
+      "username": "jack",
+      "email": "jack@gmail.com",
+      "password": "jack",
+      "role": "user"
+    }
+  ]
+}
